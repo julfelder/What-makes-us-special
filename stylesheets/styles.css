@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   border: 0;
   font: inherit;
@@ -144,10 +144,11 @@ hr {
 
 img {
   position: relative;
+  float: right;
   margin: 0 auto;
   max-width: 650px;
   padding: 5px;
-  margin: 10px 0 32px 0;
+  margin: 0px 0 32px 0;
   border: 1px solid #ccc;
 }
 
@@ -320,7 +321,7 @@ a.buttons:hover {
 
 section {
   width:650px;
-  float:right;
+  float:none;
   padding-bottom:50px;
 }
 
